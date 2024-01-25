@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B7B502FE2B6230ED00145401 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B502FD2B6230ED00145401 /* SettingsView.swift */; };
 		FBC4C66B2B622C2C00D6744B /* BuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC4C66A2B622C2C00D6744B /* BuApp.swift */; };
 		FBC4C66D2B622C2C00D6744B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC4C66C2B622C2C00D6744B /* ContentView.swift */; };
 		FBC4C66F2B622C2C00D6744B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC4C66E2B622C2C00D6744B /* Item.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B7B502FD2B6230ED00145401 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		FBC4C6672B622C2C00D6744B /* Bu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC4C66A2B622C2C00D6744B /* BuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuApp.swift; sourceTree = "<group>"; };
 		FBC4C66C2B622C2C00D6744B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,6 +81,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B7B502FF2B6230FA00145401 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B7B502FD2B6230ED00145401 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		B7B503002B62310800145401 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FBC4C6992B622D9500D6744B /* MainTabBarView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
 		FBC4C65E2B622C2C00D6744B = {
 			isa = PBXGroup;
 			children = (
@@ -143,7 +161,8 @@
 			isa = PBXGroup;
 			children = (
 				FBC4C69B2B622EA700D6744B /* Navigation */,
-				FBC4C6992B622D9500D6744B /* MainTabBarView.swift */,
+				B7B502FF2B6230FA00145401 /* Settings */,
+				B7B503002B62310800145401 /* TabBar */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -289,6 +308,7 @@
 				FBC4C66D2B622C2C00D6744B /* ContentView.swift in Sources */,
 				FBC4C69D2B622EE000D6744B /* NavigationItem.swift in Sources */,
 				FBC4C66F2B622C2C00D6744B /* Item.swift in Sources */,
+				B7B502FE2B6230ED00145401 /* SettingsView.swift in Sources */,
 				FBC4C66B2B622C2C00D6744B /* BuApp.swift in Sources */,
 				FBC4C69A2B622D9500D6744B /* MainTabBarView.swift in Sources */,
 			);
@@ -465,7 +485,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -504,7 +524,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;

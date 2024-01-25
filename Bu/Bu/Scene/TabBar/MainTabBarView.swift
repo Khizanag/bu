@@ -24,10 +24,10 @@ struct MainTabBarView: View {
                         Text("Second")
                     }
 
-                Text("Third Page")
+                SettingsView()
                     .tabItem {
                         Image(systemName: "3.square.fill")
-                        Text("Third")
+                        Text("Settings")
                     }
             }
         }

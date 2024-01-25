@@ -25,7 +25,7 @@ struct BuApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabBarView()
         }
         .modelContainer(sharedModelContainer)
     }
