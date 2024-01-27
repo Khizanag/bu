@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B7B502FE2B6230ED00145401 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B502FD2B6230ED00145401 /* SettingsView.swift */; };
+		FB0C87D22B648A1600B0D6DE /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0C87D12B648A1600B0D6DE /* Question.swift */; };
 		FBC4C66B2B622C2C00D6744B /* BuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC4C66A2B622C2C00D6744B /* BuApp.swift */; };
 		FBC4C66D2B622C2C00D6744B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC4C66C2B622C2C00D6744B /* ContentView.swift */; };
 		FBC4C66F2B622C2C00D6744B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC4C66E2B622C2C00D6744B /* Item.swift */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		B7B502FD2B6230ED00145401 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		FB0C87D12B648A1600B0D6DE /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		FBC4C6672B622C2C00D6744B /* Bu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC4C66A2B622C2C00D6744B /* BuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuApp.swift; sourceTree = "<group>"; };
 		FBC4C66C2B622C2C00D6744B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,14 @@
 			path = TabBar;
 			sourceTree = "<group>";
 		};
+		FB0C87D02B648A0300B0D6DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB0C87D12B648A1600B0D6DE /* Question.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		FBC4C65E2B622C2C00D6744B = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +130,7 @@
 		FBC4C6692B622C2C00D6744B /* Bu */ = {
 			isa = PBXGroup;
 			children = (
+				FB0C87D02B648A0300B0D6DE /* Model */,
 				FBC4C6982B622D8300D6744B /* Scene */,
 				FBC4C66A2B622C2C00D6744B /* BuApp.swift */,
 				FBC4C66C2B622C2C00D6744B /* ContentView.swift */,
@@ -310,6 +321,7 @@
 				FBC4C66F2B622C2C00D6744B /* Item.swift in Sources */,
 				B7B502FE2B6230ED00145401 /* SettingsView.swift in Sources */,
 				FBC4C66B2B622C2C00D6744B /* BuApp.swift in Sources */,
+				FB0C87D22B648A1600B0D6DE /* Question.swift in Sources */,
 				FBC4C69A2B622D9500D6744B /* MainTabBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
